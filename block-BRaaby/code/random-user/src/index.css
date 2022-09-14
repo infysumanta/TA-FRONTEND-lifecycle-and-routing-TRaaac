@@ -1,0 +1,212 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.main-div {
+  height: 100vh;
+  position: relative;
+}
+.flexi-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+header {
+  height: 50vh;
+  background-color: rgba(0, 0, 0, 0.753);
+}
+main {
+  height: 50vh;
+  background-color: #eceff7;
+}
+article {
+  background-color: white;
+  height: 25rem;
+  width: 40%;
+
+  position: absolute;
+  top: 25%;
+  left: 30%;
+}
+.card-img-div {
+  height: 7rem;
+  width: 7rem;
+  border: 2px solid white;
+  border-radius: 50%;
+  box-shadow: 3px 3px 3px gray, -3px 3px 3px gray, 3px -3px 3px gray,
+    -3px -3px 3px gray;
+
+  position: absolute;
+  top: 35%;
+  left: 40%;
+}
+.top {
+  height: 35%;
+  background-color: #eceff7;
+  position: relative;
+}
+.bottom {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+.bottom > * {
+  margin-bottom: 1rem;
+}
+h5 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.button-div {
+  display: flex;
+  justify-content: space-between;
+}
+.button-div > * {
+  margin: 0 1rem;
+  font-size: 2rem;
+  color: rgb(156, 154, 154);
+}
+.button-div i:hover {
+  color: rgb(89, 89, 196);
+}
+.click-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-pri {
+  padding: 0.5rem 1rem;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 7px;
+  background-color: rgb(89, 89, 196);
+}
